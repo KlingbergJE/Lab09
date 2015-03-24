@@ -41,6 +41,9 @@ T** Sort<T>::quickSort(T** items, int numItems, int (*compare) (T* one, T* two))
 
 
 
+	return temp;
+}
+
 
 
 
